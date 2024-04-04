@@ -1,0 +1,29 @@
+.header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.header p {
+    font-size: 18px;
+    color: #666;
+}
+
+.container {
+    justify-content: left;
+    text-align: left;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .container {
+        justify-content: left;
+        text-align: center;
+    }
+}

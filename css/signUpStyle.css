@@ -1,0 +1,142 @@
+.form {
+    border: 3px;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: linen;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.input[type=text]:focus,
+.input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.hr {
+    border: 1px solid orange;
+    margin-bottom: 25px;
+}
+
+.signupbtn:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.signupbtn {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ea9723;
+
+}
+
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 768px) {
+
+    .cancelbtn {
+        width: 100%;
+        background-color: #f44336;
+        color: white;
+
+    }
+
+    .signupbtn {
+        width: 100%;
+        background-color: #ea9723;
+        color: white;
+    }
+
+    .signupbtn:hover {
+        opacity: 0.8;
+    }
+
+    .cancelbtn:hover {
+        opacity: 0.8;
+    }
+
+    .container {
+        justify-content: left;
+        text-align: center;
+    }
+}
+
+#message {
+    display: none;
+    color: #000;
+    padding: 20px;
+    position: relative;
+    margin-top: 5px;
+
+}
+
+#message p {
+    line-height: 1;
+    font-size: 12px;
+}
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -5px;
+    content: "\2713";
+    /* Unicode code point for checkmark */
+    color: green;
+    font-size: 12px;
+}
+
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -5px;
+    content: "\2717";
+    /* Unicode code point for multiplication symbol */
+    color: red;
+    font-size: 12px;
+}

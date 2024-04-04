@@ -1,0 +1,80 @@
+.accordion {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #e0d6cc;
+}
+
+/* hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.actives:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+.accordion-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.accordion-title:hover {
+    color: black;
+}
+.accordionB {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.accordionB:hover {
+    background-color: #e0d6cc;
+}
+
+.accordionB:after {
+    content: "\25BA";
+    font-size: 13px;
+    color: black;
+    float: left;
+    margin-right: 20px;
+}
+
+.accordionB-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.accordionB-title:hover {
+    color: black;
+}

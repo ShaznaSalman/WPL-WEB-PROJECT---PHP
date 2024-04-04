@@ -1,0 +1,150 @@
+
+.contact .info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+  background: #fff;
+}
+
+.contact .info-box i {
+  
+  font-size: 32px;
+  color: #e09b06;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #2c4964;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/**/
+
+.contact .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact .member .pic {
+  overflow: hidden;
+  width: 110px;
+  border-radius: 50%;
+}
+
+.contact .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.contact .member:hover img {
+  transform: scale(1.1);
+}
+
+.contact .member .member-info {
+  padding-left: 30px;
+}
+
+.contact .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #2c4964;
+}
+
+.contact .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.contact .member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #b2c8dd;
+  bottom: 0;
+  left: 0;
+}
+
+.contact .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.contact .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #a0bcd5;
+}
+
+.contact .member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.contact .member .social a:hover {
+  background: #e09b06;
+}
+
+.contact .member .social a+a {
+  margin-left: 8px;
+}
+.header {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.header h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.header p {
+  font-size: 18px;
+  color: #666;
+}
+
+.container {
+  justify-content: left;
+  text-align: left;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .container {
+      justify-content: left;
+      text-align: center;
+  }
+}
+

@@ -1,0 +1,184 @@
+body,
+h1,
+h3,
+p {
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.container {
+    justify-content: left;
+    text-align: left;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: dimgray;
+    color: #fff;
+    text-align: center;
+
+}
+
+.main {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.subcategory {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.subcategory h2 {
+    margin-bottom: 10px;
+}
+
+.subcategory ul {
+    list-style: none;
+}
+
+.subcategory li {
+    margin-bottom: 10px;
+}
+
+.category {
+    flex: 2;
+}
+
+.category h2 {
+    margin-bottom: 5px;
+    margin-top: 35px;
+}
+
+.category p {
+    margin-bottom: 20px;
+    margin-top: 5px !important;
+}
+
+.column {
+    padding: 15px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.category-section {
+    background-color: blue;
+}
+
+.category-img {
+    padding-top: 10px;
+}
+
+div.gallery {
+    border: none;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+
+}
+
+.responsive h3 {
+    padding-bottom: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+
+    .container {
+        justify-content: left;
+        text-align: center;
+    }
+
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.category-img h3 {
+    padding-top: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.category-img p {
+    padding-top: 20px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+p {
+    font-weight: normal !important;
+}
+
+.form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.formA {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(164, 149, 149,0.2);
+}
+
+.default-btn {
+    background-color: orange;
+    color: white;
+    opacity: 1;
+}
+
+.default-btn:hover {
+    opacity: 0.8;
+}
+@media screen and (min-width: 768px) {
+    .smallcat-bar{
+      display: none;
+    }
+ }

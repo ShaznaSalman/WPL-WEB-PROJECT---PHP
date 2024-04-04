@@ -1,0 +1,184 @@
+.form {
+    border: 3px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: linen;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.containForm {
+    background-color: rgba(203, 182, 139, 0.5);
+    padding: 5px 5px 5px 5px;
+}
+
+.hr {
+    border: 1px solid orange;
+    margin-bottom: 25px;
+}
+
+.go:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.go {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    background-color: orange;
+
+}
+
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.herep {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+
+    .cancelbtn {
+        width: 100%;
+        background-color: #f44336;
+        color: white;
+
+    }
+
+    .confirmDet {
+        width: 100%;
+        background-color: rgb(3, 74, 102);
+        ;
+        color: white;
+    }
+
+    .go:hover {
+        opacity: 0.8;
+    }
+
+    .go {
+        width: 100%;
+        background-color: orange;
+        color: white;
+    }
+
+    .confirmDet:hover {
+        opacity: 0.8;
+    }
+
+    .cancelbtn:hover {
+        opacity: 0.8;
+    }
+
+    .container {
+        justify-content: left;
+        text-align: center;
+    }
+}
+
+.confirmDet:hover {
+    opacity: 0.8;
+}
+
+.container {
+    justify-content: left;
+    text-align: left;
+}
+
+.deliveryform {
+    display: none;
+}
+
+.deliverOrdersummary {
+    display: none;
+}
+
+.Ordersummary {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+}
+
+.confirmDet {
+    justify-content: center;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(3, 74, 102);
+}
+.order-summary-table {
+    width: 100%;
+    table-layout: fixed;
+ }
+
+ .order-summary-table td {
+    width: 10%;
+    padding: 5px;
+ }
+ .message-containerL {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999;
+ }
+
+ .messageL {
+    font-size: 18px;
+ }
